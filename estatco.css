@@ -1,0 +1,430 @@
+header{
+    background: url(imgs/modern-tall-glass-buildings-downtown.png);
+    background-position: 50% 50%;
+    background-size:cover ;
+}
+.dark-back{
+    background-color: #00000054;
+}
+.form-control{
+    width: fit-content !important;
+}
+
+.nav-parts a{
+    position: relative;
+    transition:all 1s ease-in-out !important;
+}
+
+.introduction{
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.desc-intro{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.nav-parts a:hover::after{
+position: absolute;
+content: "";
+width: 100%;
+height: 3px;
+border-radius: 30px;
+background-color: #1565DD;
+bottom: -10px;
+left: 0;
+transition:all 1s ease-in-out !important;
+}
+
+.inputs{
+    gap: 10px;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    border-radius: 0.50rem;
+    outline: 15px solid rgba(255, 255, 255, 0.25);;
+    flex-wrap: wrap;
+}
+
+.dropdown{
+    border: 1px solid #ced4da !important;
+    border-radius: 0.25rem
+}
+
+.dropdown-toggle::after {
+    margin-left: 4.4em  !important;
+    vertical-align: 0.15em !important;
+    color: #B1B1B1;
+
+}
+nav{
+    border-radius: 10px;
+}
+.Properties-small{
+    color: #1565DD;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.intro-properties{
+    background: #E5E5E5;
+    position: relative;
+    height: 100%;
+}
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-pagination{
+        position: relative !important;
+        margin-top: 20px;
+      }
+      .carousel-control-next, .carousel-control-prev{
+        opacity: 1 !important;
+        width: 25% !important;
+        top: 50% !important;
+        bottom: auto !important;
+      }
+
+      .circle{
+        width: 37px;
+        height: 37px;
+      }
+      .card{
+        margin-bottom: 20px;
+      }
+      .card-text{
+        color: #1565DD !important;
+        font-weight: 600;
+        font-size: 25px;
+      }
+      .card-titl{
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .featur img{
+        width: 15%;
+      }
+
+      .featur p{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 !important;
+        padding: 0 !important;
+       
+      }
+      .featur{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .featurs{
+        gap: 10px;
+      }
+      .sale{
+        position: absolute;
+        top: 10px;
+        left: 15px;
+       color: white;
+       background-color: #1565ddd6;
+       height: 25px;
+       width: 79px;
+       border-radius: 2px;
+        font-weight: 600;
+      }
+      .like{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        background-color: #0000009e;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .imgs{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+      }
+      
+      .imgs img{
+        border-radius: 10px;
+      }
+      .cairo-img{
+        position: relative;
+      }
+      .cairo-back{
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:  #265baa9c;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .cairo-back h2{
+        font-size: 54px;
+        font-weight: 700;
+        font-family: 'Nunito', sans-serif;
+      }
+      .cairo-back h3{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Nunito', sans-serif;
+
+      }
+      .cairo-back p{
+        background: white;
+        border-radius: 50%;
+      }
+      .cairo-back p i{
+        color: blue;
+        padding: 10px;
+      }
+      .ourfeaturs h2{
+        font-size: 18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+      }
+      .why-us{
+        background-color: #1D2C37;
+        overflow: hidden;
+      }
+      .ourfeaturs h3{
+        font-size: 28px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+      }
+      .card-body{
+        text-align: center;
+      }
+      .material-symbols-outlined{
+        font-size: 100px !important;
+        color: #1565DD !important;
+        padding: 10px !important;
+      }
+      .fa-history{
+        font-size: 100px !important;
+        color: #1565DD !important;
+        padding: 10px !important;
+      }
+      .card-subtitle{
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .card-text2{
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+      }
+      .featurs-intro{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .bi-house-heart{
+        font-size: 100px !important;
+        color: #1565DD !important;
+        padding: 10px !important;
+      }
+      .card-title-featurs {
+        width: fit-content;
+        margin: auto;
+        background: rgba(140, 140, 140, 0.2);
+        border-radius: 50%;
+        padding: 10px;
+      }
+      .tour-furniture{
+        width: 100%;
+        height: 500px;
+        background: url(imgs/armchair_furniture_interior_212562_3840x2400.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .card-furniture{
+        text-align: left !important;
+        font-family: 'Nunito', sans-serif;
+      }
+      .card-furniture h5{
+        font-size: 15px;
+      }
+      .card-furniture p{
+        font-size: 20px;
+        color: black !important;
+      }
+      .reviews{
+        background: #E5E5E5;
+      }
+      .reviews h2{
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .reviews p{
+       margin: auto;
+      }
+    .prev-special{
+        justify-content: start !important;
+    }
+
+    .next-special{
+        justify-content: end !important;
+    }
+    .subscription{
+        height: 500px;
+        background-color: #1565DD;
+    }
+    .img-subs {
+        height: 500px;
+        width: fit-content;
+    }
+    .img-subs img:nth-child(2){
+        position: absolute;
+        left: 12%;
+        bottom: 5px;
+        z-index: 0;
+    }
+    .img-subs img:nth-child(1){
+        z-index: 100000000;
+        position: relative;
+    }
+    .subscribe-desc{
+        font-family: 'Nunito', sans-serif;
+        color: white;
+    }
+    .subscribe-desc h2{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .gap{
+        gap: 200px;
+    }
+    .the-company h2 {
+        font-weight: 400;
+        font-size: 20px;
+        
+    }
+ 
+    .the-company span {
+        font-weight: 400;
+        font-size: 25px !important; 
+    }
+    .ul-footer li a{
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        color: white !important;
+
+    }
+    .ul-footer li{
+        margin-top: 10px;
+    }
+    .quick-links h2{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 18px; 
+        width: fit-content;
+        position: relative;
+    }
+    .quick-links h2::after{
+        position: absolute;
+        content: "";
+        width: 50%;
+        height: 3px;
+        border-radius: 30px;
+        background-color: #1565DD;
+        bottom: -10px;
+        left: 0;
+        transition:all 1s ease-in-out !important;
+    }
+
+.frame-social{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+.about-company{
+    flex: 1;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width : 1000px) {
+  .card{
+    width: 25rem !important;
+  }
+    .search-bar{
+        width: 90%;
+    }
+    .featurs-intro{
+        flex-wrap: wrap;
+    }
+    .imgs{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .footer-latest{
+        flex-wrap: wrap;
+        justify-content: start !important;
+        align-items: center !important; 
+    }
+    .img-subs{
+        display: none;
+    }
+    .subscription{
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width : 515px){
+  .mobile-btn{
+    margin-top: 20px;
+  }
+}
